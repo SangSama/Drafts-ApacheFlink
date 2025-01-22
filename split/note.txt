@@ -1,0 +1,5 @@
+Split: It will split the incoming stream into multiple streams based on a condition.
+
+    Step 1: Label elements based on a condition and store the labelled elements in SplitStream.
+
+    Step 2: Select elements from SplitStream.
