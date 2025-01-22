@@ -1,6 +1,6 @@
 package org.shine;
 
-// ubuntu > cd ../../mnt/d/FSS/ApacheFlink/Setup/flink-1.18.0
+// ubuntu > cd ../../mnt/d/FSS/ApacheFlink/Setup/flink-1.18.0 > ./bin/start-cluster.sh
 // ./bin/flink run ../../Udemy/study-apache-flink/join/target/join-flink-1.0-SNAPSHOT.jar --input1 file:///mnt/d/FSS/ApacheFlink/Udemy/study-apache-flink/data/s02/join/person --input2 file:///mnt/d/FSS/ApacheFlink/Udemy/study-apache-flink/data/s02/join/location --output file:///mnt/d/FSS/ApacheFlink/Udemy/study-apache-flink/data/s02/output/join_output
 
 import org.apache.flink.api.common.functions.JoinFunction;

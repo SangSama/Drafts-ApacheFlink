@@ -1,7 +1,7 @@
 package org.shine;
 
-// ubuntu > cd ../../mnt/d/FSS/ApacheFlink/Setup/flink-1.18.0
-// ./bin/flink run ../../Udemy/study-apache-flink/wc2/target/udemy-flink-1.0-SNAPSHOT.jar --input file:///mnt/d/FSS/ApacheFlink/Udemy/study-apache-flink/data/s02/wc_1/wc.txt --output file:// /mnt/d/FSS/ApacheFlink/Udemy/study-apache-flink/data/s02/output/wc_1_out
+// ubuntu > cd ../../mnt/d/FSS/ApacheFlink/Setup/flink-1.18.0 > ./bin/start-cluster.sh
+// ./bin/flink run ../../Udemy/study-apache-flink/wc2/target/udemy-flink-1.0-SNAPSHOT.jar --input file:///mnt/d/FSS/ApacheFlink/Udemy/study-apache-flink/data/s02/wc_1/wc.txt --output file:///mnt/d/FSS/ApacheFlink/Udemy/study-apache-flink/data/s02/output/wc_1_out
 
 import org.apache.flink.api.common.functions.FilterFunction;
 import org.apache.flink.api.common.functions.MapFunction;
